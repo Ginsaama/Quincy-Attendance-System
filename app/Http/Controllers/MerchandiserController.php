@@ -72,6 +72,7 @@ class MerchandiserController extends Controller
 
     public function getMerchandiserName(Request $request)
     {
+
         $merchandiserId = $request->input('merchandiser_id');
         $merchandiser = Merchandiser::find($merchandiserId);
 

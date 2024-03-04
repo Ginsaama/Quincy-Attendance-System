@@ -16,8 +16,8 @@ class Daily extends Model
     {
         return $this->belongsTo(Merchandiser::class);
     }
-    public function schedule()
-    {
-        return $this->belongsTo(Schedule::class);
-    }
+    // public function schedule()
+    // {
+    //     return $this->belongsTo(Schedule::class);
+    // }
 }

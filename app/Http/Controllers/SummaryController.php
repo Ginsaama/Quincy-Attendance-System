@@ -192,7 +192,6 @@ class SummaryController extends Controller
         foreach ($results as $jay) {
             $scheduleCount = $jay->totalSchedule;
             $dutyCount = $jay->totalDuty;
-
             $html .= '<tr>
                     <td>' . $jay->call_sign . '</td>
                     <td>' . $jay->name . '</td>

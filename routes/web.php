@@ -24,6 +24,7 @@ use App\Http\Controllers\SummaryController;
 Route::get('/', function () {
     return view('welcome');
 });
+
 // Login
 Route::prefix('admin')->group(function () {
     Route::get('/login', [LoginController::class, 'showLoginForm'])->name('admin.login');
